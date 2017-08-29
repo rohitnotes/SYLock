@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context="com.orange.setupwizard.LockActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="bottom|center_horizontal"
+        android:layout_weight="2"
+        android:textColor="#b3b3b3"
+        android:textSize="14sp"
+        android:paddingBottom="26dp"
+        android:text="@string/set_lock_mode" />
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" >
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/lock_pattern"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:onClick="clickImage"
+                android:background="@drawable/ripple_bg"
+                android:src="@drawable/ic_lock_pattern" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/lock_bitmap"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:onClick="clickImage"
+                android:background="@drawable/ripple_bg"
+                android:src="@drawable/ic_lock_bitmap" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/lock_number"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:onClick="clickImage"
+                android:background="@drawable/ripple_bg"
+                android:src="@drawable/ic_lock_number"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="16dp"
+        android:layout_height="0dp" >
+
+        <RelativeLayout
+            android:gravity="top|center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#b3b3b3"
+                android:textSize="14sp"
+                android:text="@string/lock_pattern" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:gravity="top|center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#b3b3b3"
+                android:textSize="14sp"
+                android:text="@string/lock_bitmap" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:gravity="top|center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#b3b3b3"
+                android:textSize="14sp"
+                android:text="@string/lock_number" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

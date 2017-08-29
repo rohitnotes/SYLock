@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lock_pattern_background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    tools:context=".LockPatternActivity" >
+
+    <TextView
+        android:id="@+id/HeadText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="90dp"
+        android:ems="1"
+        android:gravity="center"
+        android:text="@string/lockscreen_access_pattern_start" />
+
+    <com.android.internal.widget.custom.LockPatternView
+        android:id="@+id/lockPattern"
+        android:layout_width="288dp"
+        android:layout_height="288dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@drawable/ripple_bg"
+        android:src="@drawable/ic_close" />
+
+</RelativeLayout>

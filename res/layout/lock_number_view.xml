@@ -1,0 +1,105 @@
+<com.android.internal.widget.custom.CircleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/num_circle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    tools:context="com.android.internal.widget.LockNumberView" >
+
+    <Button
+        android:id="@+id/num_delete"
+        android:layout_width="@dimen/num_width"
+        android:layout_height="@dimen/num_height"
+        android:background="@drawable/ripple_bg"
+        android:gravity="center"
+        android:text="@string/delete"
+        android:textColor="#b3b3b3" />
+
+    <TextView
+        android:id="@+id/num_passwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/num_defalut_passwd"
+        android:textColor="#292929" />
+
+    <TextView
+        android:id="@+id/num_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/num_input_passwd"
+        android:paddingBottom="14dp"
+        android:textColor="#b3b3b3"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/num_0"
+        android:layout_width="@dimen/num_width"
+        android:layout_height="@dimen/num_height"
+        android:background="@drawable/num_0"
+        android:contentDescription="@string/num_0" />
+
+    <ImageButton
+        android:id="@+id/num_9"
+        android:layout_width="@dimen/num_width"
+        android:layout_height="@dimen/num_height"
+        android:background="@drawable/num_9"
+        android:contentDescription="@string/num_9" />
+
+    <ImageButton
+        android:id="@+id/num_8"
+        android:layout_width="@dimen/num_width"
+        android:layout_height="@dimen/num_height"
+        android:background="@drawable/num_8"
+        android:contentDescription="@string/num_8" />
+
+    <ImageButton
+        android:id="@+id/num_7"
+        android:layout_width="@dimen/num_width"
+        android:layout_height="@dimen/num_height"
+        android:background="@drawable/num_7"
+        android:contentDescription="@string/num_7" />
+
+    <ImageButton
+        android:id="@+id/num_6"
+        android:layout_width="@dimen/num_width"
+        android:layout_height="@dimen/num_height"
+        android:background="@drawable/num_6"
+        android:contentDescription="@string/num_6" />
+
+    <ImageButton
+        android:id="@+id/num_5"
+        android:layout_width="@dimen/num_width"
+        android:layout_height="@dimen/num_height"
+        android:background="@drawable/num_5"
+        android:contentDescription="@string/num_5" />
+
+    <ImageButton
+        android:id="@+id/num_4"
+        android:layout_width="@dimen/num_width"
+        android:layout_height="@dimen/num_height"
+        android:background="@drawable/num_4"
+        android:contentDescription="@string/num_4" />
+
+    <ImageButton
+        android:id="@+id/num_3"
+        android:layout_width="@dimen/num_width"
+        android:layout_height="@dimen/num_height"
+        android:background="@drawable/num_3"
+        android:contentDescription="@string/num_3" />
+
+    <ImageButton
+        android:id="@+id/num_2"
+        android:layout_width="@dimen/num_width"
+        android:layout_height="@dimen/num_height"
+        android:background="@drawable/num_2"
+        android:contentDescription="@string/num_2" />
+
+    <ImageButton
+        android:id="@+id/num_1"
+        android:layout_width="@dimen/num_width"
+        android:layout_height="@dimen/num_height"
+        android:background="@drawable/num_1"
+        android:contentDescription="@string/num_1" />
+
+</com.android.internal.widget.custom.CircleLayout >

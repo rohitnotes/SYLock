@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SyLock</string>
+
+    <!-- lock number view -->
+    <string name="delete">删除</string>
+    <string name="num_0">"0"</string>
+    <string name="num_1">"1"</string>
+    <string name="num_2">"2"</string>
+    <string name="num_3">"3"</string>
+    <string name="num_4">"4"</string>
+    <string name="num_5">"5"</string>
+    <string name="num_6">"6"</string>
+    <string name="num_7">"7"</string>
+    <string name="num_8">"8"</string>
+    <string name="num_9">"9"</string>
+    <string name="num_input_passwd">"输入数字密码"</string>
+    <string name="num_confirm_passwd">"确认数字密码"</string>
+    <string name="num_passwd_confirm_wrong">"2次密码不一致"</string>
+    <string name="num_success">"输入成功"</string>
+    <string name="num_defalut_passwd">"● ● ● ● ● ●"</string>
+    <string name="num_defalut_one_passwd">"●"</string>
+    <string name="num_text_color">"#b3b3b3"</string>
+
+    <!-- lock pattern view -->
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_confirm">"确认绘制图案"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_area">"图案区域。"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加圆点"</string>
+    <string name="lockscreen_access_pattern_short">"不得少于4个圆点"</string>
+    <string name="lockscreen_access_pattern_error">"2次图案不一致"</string>
+
+    <string name="set_lock_mode">请选择解锁方式</string>
+    <string name="lock_pattern">九宫格</string>
+    <string name="lock_bitmap">图形锁</string>
+    <string name="lock_number">数字锁</string>
+
+</resources>

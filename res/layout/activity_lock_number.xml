@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/lock_pattern_background"
+    android:gravity="center" >
+
+    <com.android.internal.widget.custom.LockNumberView
+        android:id="@+id/lockNumber"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lock_number_view_h"
+        android:background="@color/lock_pattern_background" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="-30dp"
+        android:background="@drawable/ripple_bg"
+        android:src="@drawable/ic_close" />
+
+</RelativeLayout>
